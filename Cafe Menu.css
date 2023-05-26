@@ -1,0 +1,97 @@
+body {
+  background-image: url(https://images8.alphacoders.com/381/381485.jpg);
+}
+
+section {
+  height: 18cm;
+  width: 16cm;
+  background-color: rgb(222, 184, 135);
+  margin-left: 32%;
+  margin-top: 3.5%;
+}
+
+#one {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bolder;
+  margin: 10px;
+  padding: 3px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+hr {
+  width: 14cm;
+  border: none;
+  background-color: brown;
+  height: 2px;
+}
+
+#two,
+#three {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  line-height: 0;
+}
+
+h2,
+h3 {
+  font-family: arial;
+  font-weight: bold;
+  size: 22px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#firstlist,
+#thirdlist {
+  width: 40%;
+  padding: 5px;
+  margin: 15px;
+  line-height: 20px;
+}
+
+#secondlist,
+#fourthlist {
+  padding: 5px;
+  width: 45%;
+  float: right;
+  text-align: right;
+  margin: 15px;
+  line-height: 20px;
+}
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+a,
+p {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2px;
+  padding: 2px;
+}
+
+#firstlist,
+#secondlist,
+#thirdlist,
+#fourthlist {
+  font-size: 20px;
+}
+
+li {
+  margin: 2.5px;
+  padding: 1px;
+}
